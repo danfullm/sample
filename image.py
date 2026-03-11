@@ -1,6 +1,7 @@
 from PIL import Image
 import time
-import epd10in2g
+from waveshare_epd import epd10in2g
+
 
 # Initialize display
 epd = epd10in2g.EPD()
