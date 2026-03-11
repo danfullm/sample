@@ -8,9 +8,9 @@ epd = epd10in2g.EPD()
 epd.init()
 
 # Load images
-image1 = Image.open("1.png")
-image2 = Image.open("2.png")
-image3 = Image.open("3.png")
+image1 = Image.open("1.png").resize((960, 640))
+image2 = Image.open("2.png").resize((960, 640))
+image3 = Image.open("3.png").resize((960, 640))
 
 cycles = 20  # number of cycles to run
 count = 0
